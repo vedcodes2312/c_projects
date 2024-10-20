@@ -66,7 +66,7 @@ void generateQuestion(int *num1, int *num2, char *operation){
                 break;
         case 1: *operation = '-';
                 break;
-        case 2: operation = '*';
+        case 2: *operation = '*';
                 break;
         case 3: *operation = '/';
                 if(*num2 == 0){
